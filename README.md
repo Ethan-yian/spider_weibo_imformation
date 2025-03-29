@@ -7,11 +7,15 @@
 [![Scrapy](https://img.shields.io/badge/scrapy-2.5+-green.svg)](https://scrapy.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-🚀 一个强大的微博信息爬虫工具，让数据采集变得简单高效 
+🚀 一个强大的微博信息爬虫工具，让数据采集变得简单高效 （ai说的(・ε・)）
 
 [English](README_EN.md) | 简体中文
 
 </div>
+
+## 🙏 致谢
+
+特别感谢 [@dataabc](https://github.com/dataabc) 的 [weibo-search](https://github.com/dataabc/weibo-search) 项目，为本项目提供了重要的参考，可以先去看这位大佬的（强烈推荐）
 
 ## ✨ 特色功能
 
@@ -171,9 +175,7 @@ ITEM_PIPELINES = {
 - [ ] 数据可视化界面
 - [ ] 分布式采集支持
 
-## 🙏 致谢
 
-特别感谢 [@dataabc](https://github.com/dataabc) 的 [weibo-search](https://github.com/dataabc/weibo-search) 项目，为本项目提供了重要的参考。
 
 ## 📄 开源协议
 
