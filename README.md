@@ -7,7 +7,7 @@
 [![Scrapy](https://img.shields.io/badge/scrapy-2.5+-green.svg)](https://scrapy.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-🚀 一个强大的微博信息爬虫工具，让数据采集变得简单高效 （ai说的(・ε・)）
+🚀 一个强大的微博信息爬虫工具，让数据采集变得简单高效 （ai写的(・ε・)）
 
 [English](README_EN.md) | 简体中文
 
