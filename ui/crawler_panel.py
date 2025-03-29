@@ -365,7 +365,7 @@ class CrawlerPanel:
         try:
             settings = get_project_settings()
             runner = CrawlerRunner(settings)
-            deferred = runner.crawl(SearchSpider)
+            deferred = runner.crawl(SearchSpider, log_queue=self.log_queue)
             deferred.addBoth(lambda _: reactor.stop())
             reactor.run(installSignalHandlers=False)
             self.parent.after(0, self.crawler_finished)

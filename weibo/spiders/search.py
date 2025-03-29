@@ -95,6 +95,10 @@ class SearchSpider(scrapy.Spider):
             print('系统中可能没有安装或正确配置MySQL数据库，请先根据系统环境安装或配置MySQL，再运行程序')
             raise CloseSpider()
 
+    def __init__(self, *args, **kwargs):
+        super(SearchSpider, self).__init__(*args, **kwargs)
+        self.log_queue = kwargs.get('log_queue')
+
     def parse(self, response):
         base_url = response.meta.get('base_url')
         keyword = response.meta.get('keyword')
@@ -554,3 +558,6 @@ class SearchSpider(scrapy.Spider):
                         weibo['user_authentication'] = '普通用户'
                 print(weibo)
                 yield {'weibo': weibo, 'keyword': keyword}
+                if self.log_queue:
+                    self.log_queue.put(f"[爬取数据] 关键词: {keyword}, 微博信息: {weibo}")
+

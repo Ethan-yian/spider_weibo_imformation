@@ -13,7 +13,7 @@ from .utils import get_current_time
 class WeiboSearchUI:
     def __init__(self, root):
         self.root = root
-        self.root.title('微博搜索爬虫控制台')
+        self.root.title('微博关键词数据爬取')
 
         # 设置窗口大小和位置
         window_width = 900
@@ -80,7 +80,7 @@ class WeiboSearchUI:
 
     def on_closing(self):
         """窗口关闭处理"""
-        if messagebox.askokcancel("确认", "确定要退出吗？"):
+        if messagebox.askokcancel("确认", "确定要退出吗？，..._〆(°▽°*)"):
             if reactor.running:
                 reactor.callFromThread(reactor.stop)
             self.root.destroy()
