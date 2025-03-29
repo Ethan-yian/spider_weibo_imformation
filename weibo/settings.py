@@ -12,7 +12,7 @@ DEFAULT_REQUEST_HEADERS = {
     'Accept':
     'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7',
-    'cookie': 'SCF=AvlxGz07F8X9QLZvXk29g_sYPfFWPPFP7IlUiBc8C9gmVF6RcJKKVUgdEasmNX-OqyooOedGAVu9c5TzWj0sFUI.; SUB=_2A25K48qFDeRhGeFH41sY-C3Iyj-IHXVpgUJNrDV8PUNbmtANLU7DkW9Neg20rQcdAE6p6h0q-DW78tyUGdPfLmwf; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFrFrsAF6QXwDqIeic34LLd5NHD95QN1Kn41Kn0Sh20Ws4DqcjMi--NiK.Xi-2Ri--ciKnRi-zNS0.R1K.Re0Bpe7tt; ALF=02_1745831893; WBPSESS=b4Nof7TUCgiz7ZaZYzH9k2iMY2M4-s9M63E9Dds7Ig_xNvm10ZHtcEE_0OguKFcKywOtX8zotmovw-m0czHTPX7GXui4Ll-QlI_h7Lp2M2Nw-UZ4SzCqUz7bmgcNcRIuAUx4UFTdorNEU7zD_wi8kQ==; _s_tentry=weibo.com; Apache=3808874178194.004.1743240408089; SINAGLOBAL=3808874178194.004.1743240408089; ULV=1743240408126:1:1:1:3808874178194.004.1743240408089:'
+    'cookie': '你的cookie'
 }
 ITEM_PIPELINES = {
     'weibo.pipelines.DuplicatesPipeline': 300,
